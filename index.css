@@ -1,0 +1,108 @@
+.main{
+    min-width: 300px;
+}
+
+.titleClass{
+    background-color: #FF1E1E;
+    color:white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inputFields{
+    background-color: #FFE3E1;
+    padding-bottom: 20px;
+    margin-block-start: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.inputFields>div{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding-top: 20px;
+}
+
+.inputFields>div>h3{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.inputFields>div>input{
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border-color: #FA9494;
+    border-width: 1px;
+    min-width: 200px;
+}
+
+.calcButtons{
+    background-color: #FFE6E6;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    border-top: #FF1E1E;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.calcButtons>button{
+    padding: 10px 10px;
+    min-width: 150px;
+    margin-left: 10%;
+    background-color: #FF1E1E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.paymentTable{
+    background-color: #FF1E1E;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 50px;
+}
+
+.paymentTable>h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.payTableData{
+    background-color: #FFE3E1;
+    min-height: 300px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.payTableData>table{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: 100%;
+}
+
+.headerRow>th{
+    
+    border-bottom: 1px solid black;
+}
+
+td{
+    
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.lastRow>th{
+    border-top: 1px solid black;;
+}
