@@ -72,6 +72,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .paymentTable>h1{
@@ -79,17 +80,45 @@
     margin-block-end: 0em;
 }
 
+.paymentTable>h1::before{
+    content: '+';
+    position: absolute;
+    right: 20px;
+}
+
+.paymentTable.active>h1::before{
+    content: '-';
+    position: absolute;
+    right: 20px;
+}
+
 .payTableData{
     background-color: #FFE3E1;
-    min-height: 300px;
+    height:0;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.payTableData{
+    background-color: #FFE3E1;
+    height:0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    transition: 1s;
+    overflow-y: auto;
 }
 
 .payTableData>table{
     margin-block-start: 0em;
     margin-block-end: 0em;
     width: 100%;
+}
+
+.payTableData.active{
+    height: auto;
 }
 
 .headerRow>th{

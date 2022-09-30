@@ -1,3 +1,13 @@
+const paymentTable = document.getElementsByClassName('paymentTable');
+
+const payTableData = document.getElementsByClassName('payTableData');
+
+
+paymentTable[0].addEventListener('click',function(){
+    paymentTable[0].classList.toggle('active');
+    payTableData[0].classList.toggle('active');
+})
+
 
 
 
